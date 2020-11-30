@@ -19,9 +19,10 @@ Afterward, the API will read what you were looking for and with a few simple com
 - SPKR stop
 
 Voice Command in SPKR can handle any topic which is given, not just news or books; for more information, go to **Alan Documentation**:
-[alan](https://alan.app/docs/usage/getting-started)
-This app will be processing two (2) API’s simultaneously. The news API, which is [news](https://newsapi.org/) will be pushed through the Alan API to retrieve endpoint information asked for.
+[Alan](https://alan.app/docs/usage/getting-started)
+This app will be processing two (2) API’s simultaneously. The news API, which is [News](https://newsapi.org/) will be pushed through the Alan API to retrieve endpoint information asked for.
 
+<img align="center" width="330" height="290"  src='./Images/SPKRIMAGE.png'/>
 
 ## DESCRIPTION
 We will use
