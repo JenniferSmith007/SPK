@@ -14,14 +14,20 @@ It will use the logo, SPKR which will be in a black oval. The topic pictures wit
 
 The main feature of the app will be the microphone that will show on the front screen. You click on the mic and speak what you want into the app. You must say, **“Hey SPKR”** (_pronounced: speaker_), give me _[whatever]_. When saying the command, the API endpoint will produce results for its endpoints for what was called. Your voice will be the input into the machine, inside the voice API it will call onto another API endpoint allowing you to retrieve the best end results.
 Afterward, the API will read what you were looking for and with a few simple commands, such as:
--SPKR find...
--SPKR next
--SPKR read...
--SPKR stop
-Voice Command in SPKR can handle any topic which is given, not just news or books; for more information, go to **Alan Documentation**:
-[alan](https://alan.app/docs/usage/getting-started)
-This app will be processing two (2) API’s simultaneously. The news API, which is [news](https://newsapi.org/) will be pushed through the Alan API to retrieve endpoint information asked for.
+- SPKR find...
+- SPKR next
+- SPKR read...
+- SPKR stop
 
+Voice Command in SPKR can handle any topic which is given, not just news or books; for more information, go to **Alan Documentation**:
+[Alan](https://alan.app/docs/usage/getting-started)
+This app will be processing two (2) API’s simultaneously. The news API, which is [News](https://newsapi.org/) will be pushed through the Alan API to retrieve endpoint information asked for.
+
+<<<<<<< HEAD
+=======
+<img align="center" width="330" height="290"  src='./Images/SPKRIMAGE.png'/>
+
+>>>>>>> 3f1e30daf6c693d83836d853cdb68d6f945575b4
 ## DESCRIPTION
 
 We will use
