@@ -24,7 +24,7 @@ This app will be processing two (2) API’s simultaneously. The news API, which 
 
 ## DESCRIPTION
 We will use
- - Wireframing
+- Wireframing
     - Code for
          - Desktop
          - Laptop
