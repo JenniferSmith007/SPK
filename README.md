@@ -23,9 +23,8 @@ Voice Command in SPKR can handle any topic which is given, not just news or book
 [Alan](https://alan.app/docs/usage/getting-started)
 This app will be processing two (2) API’s simultaneously. The news API, which is [News](https://newsapi.org/) will be pushed through the Alan API to retrieve endpoint information asked for.
 
-<<<<<<< HEAD
-=======
-<img align="center" width="330" height="290"  src='./Images/SPKRIMAGE.png'/>
+
+<img align="center" width="330" height="300"  src='./Images/SPKRIMAGE.png'/>
 
 >>>>>>> 3f1e30daf6c693d83836d853cdb68d6f945575b4
 ## DESCRIPTION
