@@ -24,16 +24,16 @@ This app will be processing two (2) API’s simultaneously. The news API, which 
 
 ## DESCRIPTION
 We will use:
-    -Wireframing
-    -Code for
-        -Desktop
-        -Laptop
-        -Tablet
-        -Phone
-    -Figma
-    -Alan API
-    -Visual Studio Code
-    -Our Imagination
+    - Wireframing
+    - Code for
+        - Desktop
+        - Laptop
+        - Tablet
+        - Phone
+    - Figma
+    - Alan API
+    - Visual Studio Code
+    - Our Imagination
 ## INSTALLATION
 Here are the installation instructions:
 **Installation**
