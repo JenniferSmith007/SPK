@@ -26,7 +26,7 @@ This app will be processing two (2) API’s simultaneously. The news API, which 
 
 <img align="center" width="330" height="300"  src='./Images/SPKRIMAGE.png'/>
 
->>>>>>> 3f1e30daf6c693d83836d853cdb68d6f945575b4
+
 ## DESCRIPTION
 
 We will use
