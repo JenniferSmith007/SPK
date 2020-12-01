@@ -1,7 +1,7 @@
 # SPKR
 ## What is SPKR 
 **SPKR** Is a webpage/app that works with voice commands:
-- **SPKR** Can you tell me the top stories from CNN
+- " **SPKR** *Can you tell me the top stories from CNN*
  **SPKR** Can also read out articles if avalible 
  
  ## How SPKR works:
