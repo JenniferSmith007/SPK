@@ -43,7 +43,10 @@ Yarn add axios dotenv
 npm install @alan-ai/alan-sdk-web --save
 ```
  
-## About the Creators 
-**Ayman:** 
-**Jennifer:**
+## Contact
+- **Ayman:** 
+- <img width="20" height="20" src='./Images/linkedin.png'/>
+
+- **Jennifer:**
+- <img width="20" height="20" src='./Images/linkedin.png'/>
 
