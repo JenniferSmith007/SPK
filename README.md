@@ -43,7 +43,15 @@ Yarn add axios dotenv
 npm install @alan-ai/alan-sdk-web --save
 ```
  
-## About the Creators 
-**Ayman:** 
-**Jennifer:**
+## Contact
+
+
+
+
+
+
+|   **Ayman**                                                                                                                                                        |  **Jennifer**                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![LinkedIn](Images/linkedin.png)](https://www.linkedin.com/in/ayman-omer-b2429b1ab) |[![LinkedIn](Images/linkedin.png)](https://www.linkedin.com/in/jennifer-smith-14a8361b7/)  |
+|                                                                                                                                                                           |                                                                                                                                                                 |
 
