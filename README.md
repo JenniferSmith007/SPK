@@ -52,6 +52,6 @@ npm install @alan-ai/alan-sdk-web --save
 
 |   **Ayman**                                                                                                                                                        |  **Jennifer**                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![LinkedIn](Images/linkedin.png=100x20)](https://www.linkedin.com/in/ayman-omer-b2429b1ab) |[![LinkedIn](Images/linkedin.png)](https://www.linkedin.com/in/jennifer-smith-14a8361b7/)  |
+| [![LinkedIn](width="60" height="60" Images/linkedin.png)](https://www.linkedin.com/in/ayman-omer-b2429b1ab) |[![LinkedIn](Images/linkedin.png)](https://www.linkedin.com/in/jennifer-smith-14a8361b7/)  |
 |                                                                                                                                                                           |                                                                                                                                                                 |
 
