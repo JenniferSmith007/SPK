@@ -1,8 +1,8 @@
 # SPKR
 ## What is SPKR 
 **SPKR** Is a webpage/app that works with voice commands:
-- **SPKR** Can you tell me the top stories from CNN
- **SPKR** Can also read out articles if avalible 
+- " **SPKR** *Can you tell me the top stories from CNN"*
+- **SPKR** Can also read out articles if avalible 
  
  ## How SPKR works:
  when a user says a command the alan api will then call on one of the various endpoints to show the results the user is looking for 
