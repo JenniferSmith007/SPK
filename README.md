@@ -32,7 +32,7 @@
 | <img width="260" height="260" src='./Images/1pagepic.png'/> | <img width="220" height="260" src='./Images/mobile2.png'/>   |  <img width="260" height="260" src='./Images/Tablet.png'/>   |
 
 
- ## Procces of Webpage/app buildout 
+ ## Process of Webpage/app buildout 
  
   ### WireFrame:
   *program used - Figma*
