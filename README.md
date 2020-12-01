@@ -8,22 +8,23 @@
  when a user says a command the alan api will then call on one of the various endpoints to show the results the user is looking for 
  the alan api then sends out a request for data from another api. 
  
- end result would be 
- ------Put picture of command being placed---------------
  
- ------table of pic 1 the start webpage || pic 2 of command being fulfilled--------
- 
- 
+
+| Desktop      | Mobile         |Tablet         |
+| :---         |     :---:      |          ---: |
+| <img width="260" height="260" src='./Images/1pagepic.png'/> | <img width="220" height="260" src='./Images/mobile2.png'/>   |  <img width="260" height="260" src='./Images/Tablet.png'/>   |
+
+
  ## Procces of Webpage/app buildout 
  
   ### WireFrame:
-  * program used - Figma *
+  *program used - Figma*
    - prototype for Webpage 
    - prototype for mobile 
    - prototype for tablet 
    
    ### Languages Used 
-   * Program used - VS CODE *
+   *Program used - VS CODE*
    - HTML 
    - CSS
    -JAVASCRIPT
