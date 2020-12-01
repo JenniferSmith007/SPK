@@ -58,6 +58,13 @@ Yarn add axios dotenv
 ```zsh
 npm install @alan-ai/alan-sdk-web --save
 ```
+## Usage
+```javascript 
+import axios from 'axios';
+import dotenv from 'dotenv';
+import alanBtn from "@alan-ai/alan-sdk-web"
+dotenv.config();
+```
  
 ## Contact
 
