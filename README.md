@@ -1,16 +1,33 @@
 # SPKR
-## What is SPKR 
-**SPKR** Is a webpage/app that works with voice commands:
-- " **SPKR** *Can you tell me the top stories from CNN"*
+## What is SPKR:
+- Voice Controlled  News Application using Alan AI
+- Alan's API request data from news api
+- Control everything in the app using your voice
+- extremely easy to integrate 
+
+## Examples on how to use SPKR
+- " *Can you tell me the top stories from CNN"*
 - **SPKR** Can also read out articles if avalible 
- 
- ## How SPKR works:
- when a user says a command the alan api will then call on one of the various endpoints to show the results the user is looking for 
- the alan api then sends out a request for data from another api. 
+
+## Usage of API
+| API | Description |
+| --- | --- |
+| Alan| Use of speech recognition allows user to add voice capabilities to application|
+| News API | provides all news data with different endpoints |
  
  
 
-| Desktop      | Mobile         |Tablet         |
+ 
+ 
+ ## How SPKR works:
+ > - Installing Alan SDK to local machine, using the News API for the Alan's backend interface
+ > - Alan api will send for a request of data from News API.
+ > - Alan api will call on one of the various endpoints from News API 
+ > - Alan then provides results the user is looking for
+ 
+ ## Preview of SPKR
+ 
+ | Desktop      | Mobile         |Tablet         |
 | :---         |     :---:      |          ---: |
 | <img width="260" height="260" src='./Images/1pagepic.png'/> | <img width="220" height="260" src='./Images/mobile2.png'/>   |  <img width="260" height="260" src='./Images/Tablet.png'/>   |
 
@@ -24,10 +41,9 @@
    - prototype for tablet 
    
    ### Languages Used 
-   *Program used - VS CODE*
    - HTML 
    - CSS
-   -JAVASCRIPT
+   - JAVASCRIPT
    
 ## Installation
 ```zsh
@@ -42,6 +58,13 @@ Yarn add axios dotenv
 ```zsh
 npm install @alan-ai/alan-sdk-web --save
 ```
+## Usage
+```javascript 
+import axios from 'axios';
+import dotenv from 'dotenv';
+import alanBtn from "@alan-ai/alan-sdk-web"
+dotenv.config();
+```
  
 ## Contact
 
@@ -52,6 +75,6 @@ npm install @alan-ai/alan-sdk-web --save
 
 |   **Ayman**                                                                                                                                                        |  **Jennifer**                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![LinkedIn](Images/alinked%20in.png)](https://www.linkedin.com/in/ayman-omer-b2429b1ab) |[![LinkedIn](Images/linkedin22.png)](https://www.linkedin.com/in/jennifer-smith-14a8361b7/)  |
+| [![LinkedIn](Images/alinkedIn2222.png)](https://www.linkedin.com/in/ayman-omer-b2429b1ab) |[![LinkedIn](Images/linkedin22.png)](https://www.linkedin.com/in/jennifer-smith-14a8361b7/)  |
 |                                                                                                                                                                           |                                                                                                                                                                 |
 
