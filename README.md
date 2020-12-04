@@ -28,9 +28,9 @@
 
 ## Preview of SPKR
 
-| Desktop                                                            |                           Mobile                           |                                                    Tablet |
-| :----------------------------------------------------------------- | :--------------------------------------------------------: | --------------------------------------------------------: |
-| <img width="260" height="260" src='./Images/MacBook Pro - 1.png'/> | <img width="220" height="260" src='./Images/mobile2.png'/> | <img width="260" height="260" src='./Images/Tablet.png'/> |
+| Desktop                                                            |                          Mobile                          |                                                    Tablet |
+| :----------------------------------------------------------------- | :------------------------------------------------------: | --------------------------------------------------------: |
+| <img width="260" height="260" src='./Images/MacBook Pro - 1.png'/> | <img width="220" height="260" src='./Images/X - 2.png'/> | <img width="260" height="260" src='./Images/Tablet.png'/> |
 
 ## Procces of Webpage/app buildout
 
