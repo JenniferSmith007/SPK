@@ -44,25 +44,27 @@ body {
   align-self: flex-end;
   align-self: center;
 }
+
+div :hover {
+  transition: width 0.5s, height 1s, transform 1s;
+  translate: 1.2 ease;
+  transform: translate(-20px, -10px);
+}
+
 .one {
   grid-area: one;
-  background-color: var(--sportsColor);
+}
+#sport {
   box-shadow: var(--shadowSize);
 }
 .two {
   grid-area: two;
-  background-color: var(--politicsColor);
-  box-shadow: var(--shadowSize);
 }
 .three {
   grid-area: three;
-  background-color: var(--buisnessColor);
-  box-shadow: var(--shadowSize);
 }
 .four {
   grid-area: four;
-  background-color: var(--worldwideColor);
-  box-shadow: var(--shadowSize);
 }
 .footer {
   grid-area: footer;
