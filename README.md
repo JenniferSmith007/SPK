@@ -1,4 +1,4 @@
-# SPKR
+# <img src="./Images/Slice%209.png"/>
 
 ## What is SPKR:
 
