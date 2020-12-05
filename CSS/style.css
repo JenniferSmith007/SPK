@@ -22,29 +22,31 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1.6fr 1.6fr 1.6fr 1.6fr;
-  gap: 9px 9px;
+  gap: 1px 1px;
   grid-template-areas:
-    "header header header header header header header header"
     "one one two two three three four four"
-    "one one two two three three four four"
-    "footer footer footer footer footer footer footer footer";
+    "one one two two three three four four";
 }
 
-.header {
-  grid-area: header;
+header {
+  left: 0;
+  bottom: 0;
   background-color: white;
-  display: flex;
   position: sticky;
+  display: flex;
 }
 #icon {
   width: 100px;
   height: 100px;
 }
 #sidenav {
-  align-self: flex-end;
-  align-self: center;
+  align-self: start;
+  margin: 0;
+  margin-top: 28px;
+  margin-left: 65em;
 }
-
+div {
+}
 div :hover {
   transition: width 0.5s, height 1s, transform 1s;
   translate: 1.2 ease;
@@ -75,19 +77,15 @@ div :hover {
 .four {
   grid-area: four;
 }
-.footer {
-  grid-area: footer;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: -115px;
-
+footer {
+  display: transparent;
+  width: 100vw;
+  margin-top: -330px;
   color: white;
   text-align: center;
-  display: block;
-  height: 330px;
+  position: fixed;
+  height: 100vh;
   background-color: #e9ecef;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border-radius: 610% 610% 610% 610% / 160% 160% 140% 140%;
   box-shadow: -3px -3px 8px #e6e6e6;
 }
