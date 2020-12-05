@@ -31,21 +31,33 @@ body {
 header {
   left: 0;
   bottom: 0;
-  background-color: white;
   position: sticky;
-  display: flex;
 }
 #icon {
   width: 100px;
   height: 100px;
 }
-#sidenav {
-  align-self: start;
-  margin: 0;
-  margin-top: 28px;
-  margin-left: 65em;
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  float: right;
+  margin-top: -80px;
 }
-div {
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav a.active {
+  background-color: black;
+  color: white;
 }
 div :hover {
   transition: width 0.5s, height 1s, transform 1s;
