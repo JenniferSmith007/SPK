@@ -31,42 +31,46 @@ body {
 header {
   left: 0;
   bottom: 0;
-  position: sticky;
 }
 #icon {
   width: 100px;
   height: 100px;
 }
 .topnav {
-  background-color: black;
+  background-color: white;
   overflow: hidden;
   float: right;
   margin-top: -80px;
+  font-family: var(--font-family);
 }
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 4px 6px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 .topnav a:hover {
+  background-color: black;
+  color: white;
+}
+.topnav a.active {
   background-color: white;
   color: black;
 }
-.topnav a.active {
-  background-color: black;
-  color: white;
+div {
+  display: flex;
 }
 div :hover {
   transition: width 0.5s, height 1s, transform 1s;
   translate: 1.2 ease;
-  transform: translate(-20px, -10px);
+  transform: translate(-10px, -5px);
 }
 
 .one {
   grid-area: one;
+  justify-content: flex-start;
 }
 #sport {
   box-shadow: var(--shadowSize);
