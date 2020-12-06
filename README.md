@@ -85,4 +85,4 @@ dotenv.config();
 |                                                                                           |                                                                                                |
 
 
-<a href="https://www.linkedin.com/in/ayman-omer-b2429b1ab">img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="15px" height="15px"/></a>
+<a href="https://www.linkedin.com/in/ayman-omer-b2429b1ab"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="15px" height="15px"/></a>
