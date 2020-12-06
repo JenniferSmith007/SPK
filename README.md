@@ -85,4 +85,4 @@ dotenv.config();
 |                                                                                           |                                                                                                |
 
 
-<img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png"/>
+<img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="5px" height="5px"/>
