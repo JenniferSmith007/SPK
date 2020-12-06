@@ -35,6 +35,7 @@ header {
 #icon {
   width: 100px;
   height: 100px;
+  box-shadow: var(--shadowSize);
 }
 .topnav {
   background-color: white;
@@ -59,18 +60,36 @@ header {
   background-color: white;
   color: black;
 }
-div {
-  display: flex;
-}
-div :hover {
+
+.grid-container :hover {
   transition: width 0.5s, height 1s, transform 1s;
   translate: 1.2 ease;
   transform: translate(-10px, -5px);
 }
-
 .one {
   grid-area: one;
-  justify-content: flex-start;
+  margin: 0;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.two {
+  grid-area: two;
+  margin: 0;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+.three {
+  margin: 0;
+  margin-left: 45px;
+  margin-top: 30px;
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+  margin: 0;
+  margin-left: 45px;
+  margin-top: 30px;
 }
 #sport {
   box-shadow: var(--shadowSize);
@@ -84,19 +103,11 @@ div :hover {
 #worldwide {
   box-shadow: var(--shadowSize);
 }
-.two {
-  grid-area: two;
-}
-.three {
-  grid-area: three;
-}
-.four {
-  grid-area: four;
-}
 footer {
   display: transparent;
+  position: sticky;
   width: 100vw;
-  margin-top: -330px;
+  margin-top: -344px;
   color: white;
   text-align: center;
   position: fixed;
