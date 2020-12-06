@@ -77,7 +77,12 @@ dotenv.config();
 
 ## Contact
 
+
+
 | **Ayman**                                                                                 | **Jennifer**                                                                                   |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [![LinkedIn](Images/aLINKEDIINpng.png)](https://www.linkedin.com/in/ayman-omer-b2429b1ab) | [![LinkedIn](Images/aLINKEDIINpng.png)](https://www.linkedin.com/in/jennifer-smith-14a8361b7/) |
+| <a href="https://www.linkedin.com/in/ayman-omer-b2429b1ab"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="15px" height="15px"/></a> | <a href="https://www.linkedin.com/in/jennifer-smith-14a8361b7/"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="15px" height="15px"/></a> 
 |                                                                                           |                                                                                                |
+
+
+
