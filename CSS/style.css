@@ -31,6 +31,7 @@ body {
 header {
   left: 0;
   bottom: 0;
+  margin: 0;
 }
 #icon {
   width: 100px;
@@ -107,7 +108,8 @@ footer {
   display: transparent;
   position: sticky;
   width: 100vw;
-  margin-top: -544px;
+
+  margin-top: -344px;
   color: white;
   text-align: center;
   position: fixed;
