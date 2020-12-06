@@ -107,7 +107,7 @@ footer {
   display: transparent;
   position: sticky;
   width: 100vw;
-  margin-top: -344px;
+  margin-top: -544px;
   color: white;
   text-align: center;
   position: fixed;
@@ -115,4 +115,5 @@ footer {
   background-color: #e9ecef;
   border-radius: 610% 610% 610% 610% / 160% 160% 140% 140%;
   box-shadow: -3px -3px 8px #e6e6e6;
+  z-index: -2;
 }
