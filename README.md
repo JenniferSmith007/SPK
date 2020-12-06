@@ -1,6 +1,6 @@
-# SPKR
+# SPKR 
 
-## What is SPKR:
+## What is SPKR :
 
 - Voice Controlled News Application using Alan AI
 - Alan's API request data from news api
