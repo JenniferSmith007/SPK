@@ -17,7 +17,6 @@ body {
   margin: 0 auto;
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
 }
 .grid-container {
   display: grid;
@@ -134,6 +133,7 @@ button {
   border: none;
   display: transparent;
   box-shadow: none;
+  margin-left: 190px;
 }
 footer {
   position: absolute;
@@ -144,4 +144,39 @@ footer {
   border-radius: -10% -10% 10% 10% / 40% 40% 10% 10%;
   box-shadow: -3px -3px 8px#e6e6e6;
   z-index: -2;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: lightgray;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  border-bottom: 10px solid white;
+  align-items: stretch;
+  letter-spacing: 3%;
+}
+.card-img-top {
+  height: 300px;
+  border-radius: 5px 5px;
+}
+.card-img-top {
+  height: 250px;
+}
+.source-date {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+.btn-num {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+.activeCard {
+  border-bottom: 10px solid #22289a;
 }
