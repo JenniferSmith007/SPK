@@ -134,6 +134,7 @@ button {
   border: none;
   display: transparent;
   box-shadow: none;
+  margin-left: 190px;
 }
 footer {
   position: absolute;
