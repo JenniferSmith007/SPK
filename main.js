@@ -5,8 +5,9 @@ const articleArray = [];
  alanBtn({
       key: ALAN_API_KEY,
    onCommand: ({ command, articles }) => {
-     if (command === `testCommand`) {
-       alert(`jenn`)
+     if (command === `color`) {
+       let x = document.querySelector("body");
+       x.style.backgroundColor = "blue";
     }
           if(command === 'newHeadlines'){
           //  console.log(articles)
