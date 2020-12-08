@@ -10,9 +10,9 @@
 }
 body {
   margin: 0 auto;
-  position: relative;
-  min-height: 100vh;
-  background-image: url(Images/Background_main1.jpg);
+  background-image: url("/Images/backgorundIMG.png");
+  background-repeat: no-repeat;
+  background-size: 90em 46em;
 }
 .grid-container {
   display: grid;
@@ -28,13 +28,16 @@ body {
 header {
   grid-area: header;
 }
-
-footer {
-  grid-area: footer;
-}
-
 main {
   grid-area: main;
+}
+.box {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+footer {
+  grid-area: footer;
 }
 
 /* .news {
