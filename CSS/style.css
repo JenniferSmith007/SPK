@@ -32,9 +32,126 @@ main {
   grid-area: main;
 }
 .box {
-  background-color: white;
-  height: 100px;
-  width: 100px;
+  position: fixed;
+  margin-left: 38px;
+  margin-top: 38px;
+  background-color: #f3f6f7;
+  width: 82vw;
+  height: 90vh;
+  box-shadow: 2px 7px 10px;
+  border-radius: 18px;
+}
+.wordbox {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  margin-left: 30px;
+  font-size: 50px;
+  display: flex;
+}
+.words {
+  display: inline-block;
+  font-size: 50px;
+}
+.words span {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  animation: animate 10s linear infinite;
+  opacity: 0;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  2% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  18% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}
+.words span:nth-child(1) {
+  animation-delay: 0s;
+}
+.words span:nth-child(2) {
+  animation-delay: 2s;
+}
+.words span:nth-child(3) {
+  animation-delay: 4s;
+}
+.words span:nth-child(4) {
+  animation-delay: 6s;
+}
+.words span:nth-child(5) {
+  animation-delay: 8s;
+}
+.wordboxtwo {
+  position: absolute;
+  top: 50%;
+  margin-left: 70px;
+  font-size: 40px;
+  transform: translateY(-50%);
+  text-shadow: 1px 1px 2px;
+}
+.wordstwo {
+  display: inline-block;
+  font-size: 40px;
+}
+.wordstwo span {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  animation: animate1 10s linear infinite;
+  opacity: 0;
+}
+@keyframes animate1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  2% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  18% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}
+.wordstwo span:nth-child(1) {
+  animation-delay: 0s;
+}
+.wordstwo span:nth-child(2) {
+  animation-delay: 2s;
+}
+.wordstwo span:nth-child(3) {
+  animation-delay: 4s;
+}
+.wordstwo span:nth-child(4) {
+  animation-delay: 6s;
+}
+.wordstwo span:nth-child(5) {
+  animation-delay: 8s;
 }
 footer {
   grid-area: footer;
@@ -73,4 +190,4 @@ footer {
 }
 .activeCard {
   border-bottom: 10px solid #22289a;
-} */
+} */ ;
