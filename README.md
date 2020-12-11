@@ -1,6 +1,6 @@
-# <img src="./Images/Slice%209.png"/>
+# SPK
 
-## What is SPK:
+## 〰️ What is SPK 〰️
 
 Spk, is a voice controlled News application using Alan AI. Alan's API can request data from news api. Then with the information from News API the Alan API can give you what ever you ask for regarding the news and the user controls everything in the app using their voice. the app is extremely easy to integrate and the goal of the app is the give the user a easy experience of receiving information.
 
@@ -9,27 +9,27 @@ Spk, is a voice controlled News application using Alan AI. Alan's API can reques
 - " _Can you tell me the top stories from CNN"_
 - **SPK** Can also read out articles if avalible
 
-## Usage of API
+## Usage of API ✔️
 
 | API      | Description                                                                    |
 | -------- | ------------------------------------------------------------------------------ |
 | Alan     | Use of speech recognition allows user to add voice capabilities to application |
 | News API | provides all news data with different endpoints                                |
 
-## How SPKR works:
+## 📱 How SPKR works 📱:
 
 > - Installing Alan SDK to local machine, using the News API for the Alan's backend interface
 > - Alan api will send for a request of data from News API.
 > - Alan api will call on one of the various endpoints from News API
 > - Alan then provides results the user is looking fo
 
-## Preview of SPKR
+## 🤳🏽 Preview of SPKR 🤳🏽
 
 | Desktop                                                     |                           Mobile                            |                                                      Tablet |
 | :---------------------------------------------------------- | :---------------------------------------------------------: | ----------------------------------------------------------: |
-| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="120" height="160" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
+| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="180" height="180" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
 
-## Procces of Webpage/app buildout
+## 🛠 Webpage / App Build 🛠
 
 ### WireFrame:
 
@@ -39,9 +39,7 @@ _program used - Figma_
 - prototype for mobile
 - prototype for tablet
 
-Requirements: write out how you are meeting the mandatory requirements with your project.
-
-### Requirements
+### Requirements ✔️
 
 _mandatory requirements_ that make up the SPK App are
 
@@ -51,7 +49,7 @@ _mandatory requirements_ that make up the SPK App are
 - API
 - SDK
 
-## Installation
+## ⚡️ Installation ⚡️
 
 ```zsh
 yarn init
@@ -78,12 +76,12 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 dotenv.config();
 ```
 
-## Additional:
+## 🖇 Additional 🖇:
 
 - Using a second API, News API
-- Using SDK
+- Installing Alan SDK
 
-## Contact
+## Contact 📲
 
 | **Ayman**                                                                                                                                                                                                                                                                                                                                                           | **Jennifer**                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
