@@ -30,7 +30,7 @@
 
 | Desktop                                                     |                           Mobile                            |                                                      Tablet |
 | :---------------------------------------------------------- | :---------------------------------------------------------: | ----------------------------------------------------------: |
-| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="220" height="260" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
+| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="120" height="160" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
 
 ## Procces of Webpage/app buildout
 
