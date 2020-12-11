@@ -1,106 +1,81 @@
 import alanBtn from '@alan-ai/alan-sdk-web'
-
+ //import wordsToNumbers from 'words-to-numbers';
 const ALAN_API_KEY =process.env.ALAN_API_KEY
 const articleArray = [];
- alanBtn({
+let main1 = document.querySelector('#main1');
+let number =0;
+alanBtn({
       key: ALAN_API_KEY,
-   onCommand: ({ command, articles }) => {
-     if (command === `color`) {
-       let x = document.querySelector("body");
-       x.style.backgroundColor = "blue";
-    }
+      onCommand:({command ,articles,article,number})=>{
           if(command === 'newHeadlines'){
-          //  console.log(articles)
-     articles.forEach((article,i) => {
-          let locationToAppendArticles = document.querySelector(".news");
-          //const div = createElement("div");
-         locationToAppendArticles.innerHTML+=`  
-                    <div class="card">
-                		<img src="${ article.urlToImage}" class="card-img-top" alt="${article.title}" >
-                		<div class='source-date'>
-                		<h6 class="source"> Source :${article.source.name}</h6>
-                		<h6 class="date">${new Date(article.publishedAt).toDateString()}</h6>
-                	  </div>
-                	   <div class="card-body">
-                	    <h5 class="card-title">${article.title}</h5>
-                   <p class="card-text">${article.description}</p>
-                   <div class='btn-num'>
-                		 <a href="${article.url}" class="btn btn-primary">more</a>
-                         <h5>${[i+1] }</h5>
-                         </div>
-                        </div> 
-                        </div>
-                        `
-
-
-const ALAN_API_KEY =process.env.ALAN_API_KEY
-const articleArray = [];
-    alanBtn({
-       key: ALAN_API_KEY,
-     onCommand:({command ,articles})=>{
-        if(command === 'newHeadlines'){
-          //  console.log(articles)
-           articles.forEach((article,i) => {
-          let locationToAppendArticles = document.querySelector(".news");
-          //const div = createElement("div");
-          locationToAppendArticles.innerHTML+=`  <div class="card">
-                        <img src="${ article.urlToImage}" class="card-img-top" alt="${article.title}" >
-                        <div class='source-date'>
-                		<h6 class="source"> Source :${article.source.name}</h6>
-                		<h6 class="date">${new Date(article.publishedAt).toDateString()}</h6>
-                             </div>
-                	    <div class="card-body">
-                        <h5 class="card-title">${article.title}</h5>
-                         <p class="card-text">${article.description}</p>
-                         <div class='btn-num'>
-                		 <a href="${article.url}" class="btn btn-primary">more</a>
-                         <h5>${[i+1] }</h5>
-                        </div>
-                        </div> </div> `
-
-                        let card = document.querySelectorAll('.card')
-                        articleArray.push(card);
-                       /// console.log(articleArray);
-                         }); 
-
-            } 
-            // let cards = document.querySelectorAll('img')
-            // for(let i =0; i < cards.length;i++){
-            //   cards[i].style.height=500+'px'
-           // }
-    if (command === 'highlight') {
-      alert(`jenn`);
-              // articleArray.forEach((articleBeingRead) => {
-              // console.log(articleBeingRead)
-                  // articleBeingRead.classList.add("activeCard");
-                  // articleBeingRead.classList.add("activeCard")
-                   //  ? articleArray[numberArticleBeingRead].classList.remove("activeCard")
-                    // : "";
-                // });
-                 // numberArticleBeingRead++;
-            }
-      },
+          main1.remove();
+            console.log(articles)
+              articles.forEach((articleCard,i) => { 
+                let newsIm=`https://images.app.goo.gl/t1DSJHDe5T145cNf6`;
+			          let div = document.querySelector('.news')
+                let holdCard = document.createElement('div')
+                     holdCard.classList.add('card')
+                div.appendChild(holdCard)
+                let imgTop = document.createElement('img')
+                    imgTop.classList.add('card-img-top')
+                    imgTop.setAttribute('src', `${articleCard.urlToImage||newsIm}`)
+                    imgTop.setAttribute('alt',`${articleCard.title}`)
+                    holdCard.appendChild(imgTop);
+                let sourceDateDiv = document.createElement('div') 
+                    sourceDateDiv.classList.add('source-date')
+                let source = document.createElement('h6');
+                    source.classList.add("source");
+                    source.textContent=`Source :${articleCard.source.name}`
+                     sourceDateDiv.appendChild(source)
+                 let date = document.createElement('h6');
+                     date.classList.add("date")
+                     date.textContent =`${new Date(articleCard.publishedAt).toDateString()}`
+                     sourceDateDiv.appendChild(date)
+                     holdCard.appendChild(sourceDateDiv);
+                 let cardBody =document.createElement('div')
+                     cardBody.classList.add('card-body')
+                 let cardTitle =document.createElement('h5');
+                     cardTitle.classList.add('card-title')
+                     cardTitle.textContent=`${articleCard.title}`
+                     cardBody.appendChild(cardTitle);
+                 let description = document.createElement('p')
+                     description.classList.add('card-text')
+                     description.textContent =`${articleCard.description}`
+                     cardBody.appendChild(description);
+                  let divBtnNum = document.createElement('div')
+                      divBtnNum.classList.add('btn-num')
+                 let btnUrl= document.createElement('a')
+                     btnUrl.setAttribute('href',`${articleCard.url}`)
+                     btnUrl.classList.add('btn')
+                     btnUrl.classList.add('btn-primary')
+                     btnUrl.textContent ='more'
+                     divBtnNum.appendChild(btnUrl)
+                 let numArticle =document.createElement('h5');
+                     numArticle.classList.add('numOfArticle');
+                     numArticle.textContent=`${[i+1]}`
+                     divBtnNum.appendChild(numArticle)
+                     cardBody.appendChild(divBtnNum)
+                     holdCard.appendChild(cardBody)
+                                   }); 
+                                   } 
+        let card = document.querySelectorAll('.card-title')
+          if(command === 'highlight'){
+                for(let i =0; i< card.length;i++){
+                    if(card[i].textContent===article.title ){
+               let activeCard =document.querySelector('.card') 
+                   activeCard.classList ='activeCard'
+                    }else if( activeCard.classList.contains()){
+                    }
+                  }
+           }
+          if(command === 'open'){
+                 //console.log(number); 
+                 for(let i in articles){
+                   //console.log(articles[i].url)
+               // let changStringToNum = number.length > 0 ? wordsToNumbers():number
+                 window.open(articles[number].url,'_blank')
+                 }
+                 }
+                },
      rootEl: document.getElementById("alan-btn"),
  },);
-
-                                        
-                        } 
-            // let cards = document.querySelectorAll('img')
-            // for(let i =0; i < cards.length;i++){
-            //   cards[i].style.height=500+'px' // }
-                if(command === 'highlight'){
-                articleArray.forEach((articleBeingRead) => {
-              // console.log(articleBeingRead)
-                  // articleBeingRead.classList.add("activeCard");
-                   
-                  // articleBeingRead.classList.add("activeCard")
-                   //  ? articleArray[numberArticleBeingRead].classList.remove("activeCard")
-                    // : "";
-                    });
-                
-                    // numberArticleBeingRead++;
-                   }
-               },
-          rootEl: document.getElementById("alan-btn"),
-    },);
-
