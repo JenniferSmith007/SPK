@@ -28,9 +28,9 @@
 
 ## Preview of SPKR
 
-| Desktop                                                            |                          Mobile                          |                                                                Tablet |
-| :----------------------------------------------------------------- | :------------------------------------------------------: | --------------------------------------------------------------------: |
-| <img width="260" height="260" src='./Images/MacBook Pro - 1.png'/> | <img width="220" height="260" src='./Images/X - 2.png'/> | <img width="260" height="260" src='./Images/iPad Pro 12.9_ - 2.png'/> |
+| Desktop                                                     |                           Mobile                            |                                                      Tablet |
+| :---------------------------------------------------------- | :---------------------------------------------------------: | ----------------------------------------------------------: |
+| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="220" height="260" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
 
 ## Procces of Webpage/app buildout
 
@@ -77,13 +77,6 @@ dotenv.config();
 
 ## Contact
 
-
-
-| **Ayman**                                                                                 | **Jennifer**                                                                                   |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| <a href="https://www.linkedin.com/in/ayman-omer-b2429b1ab"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="25px" height="25px"/></a>  <a href="https://github.com/aymanjebril2"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/GitHub-Mark-120px-plus.png" width="25px" height="25px"/></a> | <a href="https://www.linkedin.com/in/jennifer-smith-14a8361b7/"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="25px" height="25px"/></a> <a href="https://github.com/JenniferSmith007"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/GitHub-Mark-120px-plus.png" width="25px" height="25px"/></a>
- 
-
-
-
-
+| **Ayman**                                                                                                                                                                                                                                                                                                                                                           | **Jennifer**                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://www.linkedin.com/in/ayman-omer-b2429b1ab"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="25px" height="25px"/></a> <a href="https://github.com/aymanjebril2"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/GitHub-Mark-120px-plus.png" width="25px" height="25px"/></a> | <a href="https://www.linkedin.com/in/jennifer-smith-14a8361b7/"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/LI-In-Bug.png" width="25px" height="25px"/></a> <a href="https://github.com/JenniferSmith007"><img src="https://github.com/JenniferSmith007/SPKR/blob/Developer/Images/GitHub-Mark-120px-plus.png" width="25px" height="25px"/></a> |
