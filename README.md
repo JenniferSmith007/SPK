@@ -47,7 +47,6 @@ _mandatory requirements_ that make up the SPK App are
 - CSS
 - JAVASCRIPT
 - API
-- SDK
 
 ## ⚡️ Installation ⚡️
 
