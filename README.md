@@ -1,16 +1,13 @@
 # <img src="./Images/Slice%209.png"/>
 
-## What is SPKR:
+## What is SPK:
 
-- Voice Controlled News Application using Alan AI
-- Alan's API request data from news api
-- Control everything in the app using your voice
-- extremely easy to integrate
+Spk, is a voice controlled News application using Alan AI. Alan's API can request data from news api. Then with the information from News API the Alan API can give you what ever you ask for regarding the news and the user controls everything in the app using their voice. the app is extremely easy to integrate and the goal of the app is the give the user a easy experience of receiving information.
 
-## Examples on how to use SPKR
+## Examples on how to use SPK
 
 - " _Can you tell me the top stories from CNN"_
-- **SPKR** Can also read out articles if avalible
+- **SPK** Can also read out articles if avalible
 
 ## Usage of API
 
@@ -42,11 +39,17 @@ _program used - Figma_
 - prototype for mobile
 - prototype for tablet
 
-### Languages Used
+Requirements: write out how you are meeting the mandatory requirements with your project.
+
+### Requirements
+
+_mandatory requirements_ that make up the SPK App are
 
 - HTML
 - CSS
 - JAVASCRIPT
+- API
+- SDK
 
 ## Installation
 
@@ -74,6 +77,11 @@ import dotenv from "dotenv";
 import alanBtn from "@alan-ai/alan-sdk-web";
 dotenv.config();
 ```
+
+## Additional:
+
+- Using a second API, News API
+- Using SDK
 
 ## Contact
 
