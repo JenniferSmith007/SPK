@@ -2,7 +2,7 @@
 
 ## 〰️ What is SPK 〰️
 
-Spk. Is a voice controlled News application using Alan AI. Alan's API can request data from news api. Then with the information from News API the Alan API can give you what ever you ask for regarding the news and the user controls everything in the app using their voice. the app is extremely easy to integrate and the goal of the app is the give the user a easy experience of receiving information.
+_Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can request data from _News API_. Then with the information from News API the Alan API can give you what ever you ask for regarding the news and the _user controls everything_ in the app using their _voice_. the app is extremely easy to integrate and the goal of the app is the give the user a _easy experience_ of receiving information.
 
 ## Examples on how to use SPK
 
