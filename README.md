@@ -1,4 +1,4 @@
-# SPK
+# <img width="160" height="160" src='./Images/Screen Shot 2020-12-09 at 9.01.38 PM.png'/>
 
 ## 〰️ What is SPK 〰️
 
@@ -16,7 +16,7 @@ _Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can 
 | Alan     | Use of speech recognition allows user to add voice capabilities to application |
 | News API | provides all news data with different endpoints                                |
 
-## 📱 How SPK works 📱:
+## 📱 How SPK works 📱
 
 > - Installing Alan SDK to local machine, using the News API for the Alan's backend interface
 > - Alan api will send for a request of data from News API.
@@ -25,13 +25,13 @@ _Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can 
 
 ## 🤳🏽 Preview of SPK 🤳🏽
 
-| Desktop                                                     |                           Mobile                            |                                                      Tablet |
-| :---------------------------------------------------------- | :---------------------------------------------------------: | ----------------------------------------------------------: |
-| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="180" height="180" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
+| Desktop                                                       |                            Mobile                             |                                                        Tablet |
+| :------------------------------------------------------------ | :-----------------------------------------------------------: | ------------------------------------------------------------: |
+| <img width="260" height="260" src='./Images/readme01-2.png'/> | <img width="180" height="180" src='./Images/readme02-2.png'/> | <img width="260" height="260" src='./Images/readme03-2.png'/> |
 
 ## 🛠 Webpage / App Build 🛠
 
-### WireFrame:
+### WireFrame
 
 _program used - Figma_
 
@@ -75,7 +75,7 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 dotenv.config();
 ```
 
-## 🖇 Additional 🖇:
+## 🖇 Additional 🖇
 
 - Using a second API, News API
 - Installing Alan SDK
