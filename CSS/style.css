@@ -1,86 +1,79 @@
 :root {
-  --textcolor: #507dbc;
-  --shadowSize: 2px 4px 2px 0px rgba(119, 119, 119, 0.93);
   --font-family: "Bitter", serif;
 }
 * {
-  box-sizing: border-box;
   font-family: var(--font-family);
-  border-radius: 5%;
 }
 body {
-  margin: 0 auto;
-  background-image: url("/Images/backgorundIMG_main.png");
-  background-repeat: no-repeat;
-  background-size: 90em 46em;
-}
-
-.news {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1.1fr 1.1fr 1fr;
-  gap: 2px 2px;
-  width: 50px;
-  height: 50px;
-}
-
-header,
-nav {
-  display: flex;
-  flex-direction: column;
-}
-nav {
-  position: fixed;
   margin: 0;
-  margin-top: 20px;
-  margin-left: 77.5rem;
-  text-shadow: 1px 1px 2px;
+  max-height: 100vh;
+  max-width: 100vw;
+  color: #c4c4c4;
+  box-sizing: border-box;
 }
-nav a {
+/* main {
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: #c4c4c4;
+}
+header {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 1px grey;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+.topnav a {
   float: left;
+  display: block;
+  color: whitesmoke;
   text-align: center;
-  padding: 10px 12px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 35px;
-  color: #1e5285;
 }
-nav a:hover {
-  color: #3874bc;
+.topnav a:hover {
+  background-color: #ddd;
+  color: #a6808c;
 }
-nav a.active {
-  color: #213959;
-}
-main {
-  grid-area: main;
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
 
-h1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: var(--textcolor);
+.box {
+  float: left;
+  width: 25%;
+  padding: 20px;
 }
-#fistsent {
-  justify-content: flex-start;
-  margin-left: 45px;
-  margin-top: 15px;
-  font-size: 60px;
-  text-shadow: 1px 1px 2px;
+.main1:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-h2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: var(--textcolor);
+@media screen and (max-width: 992px) {
+  .box {
+    width: 50%;
+  }
 }
-#secondsent {
-  justify-content: flex-start;
-  margin-left: 42px;
-  margin-top: 30px;
-  font-size: 55px;
-  text-shadow: 1px 1px 2px;
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+  }
+} */
+
+/* On screens that are
+
+.box {
+  width: 100%;
 }
-.wordbox {
+
+/* On screens that are 600px wide or less, mak
+
+/* .wordbox {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -197,24 +190,4 @@ h2 {
 }
 .wordstwo span:nth-child(5) {
   animation-delay: 9s;
-}
-
-footer {
-  display: flex;
-}
-
-.card {
-  height: 60px;
-}
-.card-img-top {
-  height: 60px;
-}
-.source-date {
-  height: 5px;
-}
-.btn-num {
-  height: 10px;
-}
-.activeCard {
-  border-bottom: 10px solid #22289a;
-}
+} */
