@@ -25,9 +25,9 @@ _Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can 
 
 ## 🤳🏽 Preview of SPK 🤳🏽
 
-| Desktop                                                     |                           Mobile                            |                                                      Tablet |
-| :---------------------------------------------------------- | :---------------------------------------------------------: | ----------------------------------------------------------: |
-| <img width="260" height="260" src='./Images/readme01.png'/> | <img width="180" height="180" src='./Images/readme02.png'/> | <img width="260" height="260" src='./Images/readme03.png'/> |
+| Desktop                                                       |                            Mobile                             |                                                        Tablet |
+| :------------------------------------------------------------ | :-----------------------------------------------------------: | ------------------------------------------------------------: |
+| <img width="260" height="260" src='./Images/readme01-2.png'/> | <img width="180" height="180" src='./Images/readme02-2.png'/> | <img width="260" height="260" src='./Images/readme03-2.png'/> |
 
 ## 🛠 Webpage / App Build 🛠
 
