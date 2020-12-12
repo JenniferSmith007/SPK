@@ -16,7 +16,7 @@ _Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can 
 | Alan     | Use of speech recognition allows user to add voice capabilities to application |
 | News API | provides all news data with different endpoints                                |
 
-## 📱 How SPK works 📱:
+## 📱 How SPK works 📱
 
 > - Installing Alan SDK to local machine, using the News API for the Alan's backend interface
 > - Alan api will send for a request of data from News API.
@@ -31,7 +31,7 @@ _Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can 
 
 ## 🛠 Webpage / App Build 🛠
 
-### WireFrame:
+### WireFrame
 
 _program used - Figma_
 
@@ -75,7 +75,7 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 dotenv.config();
 ```
 
-## 🖇 Additional 🖇:
+## 🖇 Additional 🖇
 
 - Using a second API, News API
 - Installing Alan SDK
