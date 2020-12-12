@@ -1,4 +1,4 @@
-# SPK
+# <img width="260" height="260" src='./Images/Screen Shot 2020-12-09 at 9.01.38 PM.png'/>
 
 ## 〰️ What is SPK 〰️
 
