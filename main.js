@@ -2,13 +2,13 @@ import alanBtn from '@alan-ai/alan-sdk-web'
  //import wordsToNumbers from 'words-to-numbers';
 const ALAN_API_KEY =process.env.ALAN_API_KEY
 const articleArray = [];
-let main1 = document.querySelector('#main1');
+
 let number =0;
 alanBtn({
       key: ALAN_API_KEY,
       onCommand:({command ,articles,article,number})=>{
           if(command === 'newHeadlines'){
-          main1.remove();
+         
             console.log(articles)
               articles.forEach((articleCard,i) => { 
                 let newsIm=`https://images.app.goo.gl/t1DSJHDe5T145cNf6`;
