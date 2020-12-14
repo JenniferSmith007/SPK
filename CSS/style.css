@@ -301,7 +301,7 @@ div .box {
   color: whitesmoke;
 }
 .wordstwo {
-  float: center;
+  float: left;
   text-align: center;
   margin-left: 10px;
   display: inline-block;
