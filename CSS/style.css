@@ -239,7 +239,7 @@ div .box {
   color: whitesmoke;
 }
 .words {
-  float: center;
+  float: left;
   text-align: center;
   margin-left: 10px;
   display: inline-block;
@@ -363,7 +363,7 @@ div .box {
   color: whitesmoke;
 }
 .words3 {
-  float: center;
+  float: left;
   text-align: center;
   margin-left: 10px;
   display: inline-block;
@@ -427,12 +427,12 @@ main .main2 {
   color: #736e87;
 }
 .ayman1 {
-  margin-top: 200px;
-  margin-left: -350px;
+  margin-top: 90px;
+  margin-left: -450px;
 }
 .jenn1 {
-  margin-top: 200px;
-  margin-left: -150px;
+  margin-top: 290px;
+  margin-left: -106px;
 }
 #creators3 {
   display: flex;
@@ -440,4 +440,52 @@ main .main2 {
 #fox {
   max-width: 0;
   margin-top: 90px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: whitesmoke;
+  align-items: stretch;
+  letter-spacing: 3;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  align-items: stretch;
+  letter-spacing: 3%;
+  transform: scale(0.95);
+}
+.card-img-top {
+  height: 300px;
+  border-radius: 5px 5px;
+}
+.card-img-top {
+  height: 250px;
+}
+.source-date {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+.btn-num {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  margin-bottom: 0;
+}
+.news .activeCard {
+  transform: scale(1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  margin: 5px;
+  border-bottom: 10px solid #736e87;
+}
+.numOfArticle {
+  color: #007bff;
+  margin: 0;
 }
