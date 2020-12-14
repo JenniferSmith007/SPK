@@ -64,6 +64,15 @@ h1,
 .catagories {
   color: whitesmoke;
 }
+h2 {
+  margin: 0;
+  margin-left: 20px;
+  color: whitesmoke;
+}
+.lates {
+  margin-top: 155px;
+  margin-right: 140px;
+}
 .box {
   float: left;
   width: 25%;
@@ -71,6 +80,11 @@ h1,
   text-align: center;
 }
 .main1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main2:after {
   content: "";
   display: table;
   clear: both;
@@ -146,6 +160,17 @@ h1,
   }
 }
 
+@media screen and (max-width: 992px) {
+  .box1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .box1 {
+    width: 100%;
+  }
+}
+
 p {
   font-size: 20px;
   color: whitesmoke;
@@ -153,9 +178,9 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
 }
-#late {
-  justify-content: center;
-  margin-top: 280px;
+#lates {
+  margin: 0;
+  margin-top: 580px;
   text-shadow: 1px 1px 2px;
 }
 #latest {
@@ -167,6 +192,7 @@ p {
   border-radius: 40px;
   background-color: #736e87;
   box-shadow: 2px 3px 4px grey;
+  perspective: 1000px;
 }
 #terms1 {
   height: 390px;
@@ -203,23 +229,24 @@ div .box {
 }
 
 .wordbox {
-  float: left;
-  margin-top: 260px;
-  transform: translateY(-50%);
-  margin-left: 3px;
-  font-size: 18px;
+  float: right;
+  margin-top: 140px;
+  transform: translatex(-10%);
+  margin-left: 20px;
+  font-size: 15px;
   display: flex;
   text-shadow: 1px 1px 2px;
   color: whitesmoke;
 }
 .words {
-  position: absolute;
-  margin-left: 240px;
-
+  float: center;
+  text-align: center;
+  margin-left: 10px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 30px;
   color: whitesmoke;
 }
+
 .words span {
   top: 0;
   overflow: hidden;
@@ -229,23 +256,23 @@ div .box {
 @keyframes animate {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateX(-10px);
   }
   2% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   18% {
     opacity: 0;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   20% {
     opacity: 0;
-    transform: translateY(-100px);
+    transform: translateX(-50px);
   }
   100% {
     opacity: 0;
-    transform: translateY(-100px);
+    transform: translateX(-50px);
   }
 }
 .words span:nth-child(1) {
@@ -264,24 +291,25 @@ div .box {
   animation-delay: 8s;
 }
 .wordboxtwo {
-  float: left;
-  top: 80%;
-  margin-left: 60px;
-  font-size: 20px;
-  transform: translateY(-50%);
+  float: right;
+  margin-top: 140px;
+  transform: translatex(-10%);
+  margin-left: 20px;
+  font-size: 15px;
+  display: flex;
   text-shadow: 1px 1px 2px;
   color: whitesmoke;
 }
 .wordstwo {
-  float: left;
+  float: center;
+  text-align: center;
+  margin-left: 10px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   color: whitesmoke;
-  font-weight: 200;
 }
-.wordstwo span {
-  float: left;
 
+.wordstwo span {
   top: 0;
   overflow: hidden;
   animation: animate1 10s linear infinite;
@@ -290,108 +318,126 @@ div .box {
 @keyframes animate1 {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateX(-10px);
   }
   2% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   18% {
     opacity: 0;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   20% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(-50px);
   }
   100% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(-50px);
   }
 }
 .wordstwo span:nth-child(1) {
-  animation-delay: 1s;
+  animation-delay: 0s;
 }
 .wordstwo span:nth-child(2) {
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 .wordstwo span:nth-child(3) {
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 .wordstwo span:nth-child(4) {
-  animation-delay: 7s;
+  animation-delay: 6s;
 }
 .wordstwo span:nth-child(5) {
-  animation-delay: 9s;
+  animation-delay: 8s;
 }
-
 .wordboxThree {
-  float: left;
-  top: 80%;
-  margin-left: 10px;
-  font-size: 19px;
-  transform: translateY(-50%);
+  float: right;
+  margin-top: 140px;
+  transform: translatex(-10%);
+  margin-left: 20px;
+  font-size: 15px;
+  display: flex;
   text-shadow: 1px 1px 2px;
   color: whitesmoke;
 }
 .words3 {
-  float: left;
+  float: center;
+  text-align: center;
+  margin-left: 10px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   color: whitesmoke;
-  font-weight: 200;
 }
+
 .words3 span {
-  float: left;
   top: 0;
   overflow: hidden;
-  animation: animate1 10s linear infinite;
+  animation: animate2 10s linear infinite;
   opacity: 0;
 }
-@keyframes animate1 {
+@keyframes animate2 {
   0% {
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateX(-10px);
   }
   2% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   18% {
     opacity: 0;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   20% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(-50px);
   }
   100% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(-50px);
   }
 }
 .words3 span:nth-child(1) {
-  animation-delay: 1s;
+  animation-delay: 0s;
 }
 .words3 span:nth-child(2) {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 .words3 span:nth-child(3) {
+  animation-delay: 4s;
+}
+.words3 span:nth-child(4) {
   animation-delay: 6s;
 }
-.words3span:nth-child(4) {
+.words3 span:nth-child(5) {
   animation-delay: 8s;
 }
-.words3 span:nth-child(5) {
-  animation-delay: 10s;
+main .main2 {
+  overflow: hidden;
 }
-
 .whatis {
-  color: black;
+  color: #736e87;
 }
 .what2 {
-  color: black;
+  color: #736e87;
 }
 .creators {
-  color: black;
+  color: #736e87;
+}
+.ayman1 {
+  margin-top: 200px;
+  margin-left: -350px;
+}
+.jenn1 {
+  margin-top: 200px;
+  margin-left: -150px;
+}
+#creators3 {
+  display: flex;
+}
+#fox {
+  max-width: 0;
+  margin-top: 90px;
 }
