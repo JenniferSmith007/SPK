@@ -34,8 +34,15 @@ let news = document.querySelector('.news')
 //         apple.textContent= 'Apple'
 //         let tesla = document.createElement('span');
 //         tesla.textContent= 'Tesla'
+
 //         insideWTB.appendChild(apple)
 //         insideWTB.appendChild(tesla)
+
+       
+//         insideWTB.appendChild(apple)
+//         insideWTB.appendChild(tesla)
+      
+
 //         wordBoxTwo.appendChild(insideWTB);
 //         termsDiv.appendChild(terms)
 //         termsDiv.appendChild(wordBoxTwo);
