@@ -9,6 +9,9 @@ _Spk_. Is a _voice controlled_ News application using _Alan AI_. Alan's API can 
 - " _Can you tell me the top stories from CNN"_
 - **SPK** Can also read out articles if avalible
 
+## 💻 Check SPK out 💻 
+- https://vigorous-yonath-891f06.netlify.app
+
 ## Usage of API ✔️
 
 | API      | Description                                                                    |
