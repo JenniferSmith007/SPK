@@ -130,7 +130,6 @@ h2 {
   .wordbox {
     width: 50%;
   }
-  
 }
 @media screen and (max-width: 600px) {
   .wordbox {
@@ -146,7 +145,6 @@ h2 {
   .words {
     width: 100%;
   }
-  
 }
 @media screen and (max-width: 992px) {
   .wordboxThree {
@@ -519,37 +517,27 @@ html {
   margin: 0;
 }
 
-.card-text{
+.card-text {
   color: black;
-font-size:15px ;
+  font-size: 15px;
 }
 @media screen and (max-width: 1100px) {
-  
-  .news{
-
-    grid-template-columns: repeat(3, .85fr);
-   
+  .news {
+    grid-template-columns: repeat(3, 0.85fr);
   }
 }
 @media screen and (max-width: 900px) {
-  
-  .news{
-
-    grid-template-columns: repeat(2, .85fr);
-   
+  .news {
+    grid-template-columns: repeat(2, 0.85fr);
   }
 }
 
 @media screen and (max-width: 600px) {
-  
-  .news{
-
-    grid-template-columns: repeat(1, .85fr);
-   
+  .news {
+    grid-template-columns: repeat(1, 0.85fr);
   }
-
+}
 .card-text {
   color: black;
   font-size: 15px;
-
 }
