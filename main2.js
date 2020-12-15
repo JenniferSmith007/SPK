@@ -5,7 +5,7 @@ import alanBtn from '@alan-ai/alan-sdk-web'
   key: ALAN_API_KEY,
    onCommand: ({ command, color }) => {
     if (command === 'aboutPage') {
-    let page = document.querySelector('.page2')  
+    let page = document.querySelector('.home')  
         window.open(page, '_self') 
         } 
        //  if(command === 'go back'){

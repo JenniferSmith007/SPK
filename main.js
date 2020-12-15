@@ -34,10 +34,15 @@ let news = document.querySelector('.news')
 //         apple.textContent= 'Apple'
 //         let tesla = document.createElement('span');
 //         tesla.textContent= 'Tesla'
-        
+
+//         insideWTB.appendChild(apple)
+//         insideWTB.appendChild(tesla)
+
+       
 //         insideWTB.appendChild(apple)
 //         insideWTB.appendChild(tesla)
       
+
 //         wordBoxTwo.appendChild(insideWTB);
 //         termsDiv.appendChild(terms)
 //         termsDiv.appendChild(wordBoxTwo);
@@ -163,7 +168,7 @@ alanBtn({
         } 
    
 
- let card = document.querySelectorAll('.card-title')
+let card = document.querySelectorAll('.card-title')
      if(command === 'highlight'){
          let activeCard=document.querySelectorAll('.card') 
       // for(let i =0 ; i <activeCard.length;i++){
