@@ -12,13 +12,13 @@
     "start": "parcel index.html",
     "build": "parcel build aboutt.html",
     "watch": "parcel watch index.html"
-
   },
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.5",
     "axios": "^0.21.0",
     "dotenv": "^8.2.0",
-    "purecss": "^2.0.3"
+    "purecss": "^2.0.3",
+    "words-to-numbers": "^1.5.1"
   },
   "browserslist": [
     "last 1 chrome version"

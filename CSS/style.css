@@ -489,3 +489,7 @@ html {
   color: #007bff;
   margin: 0;
 }
+.card-text{
+  color: black;
+font-size:15px ;
+}
