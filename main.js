@@ -104,7 +104,7 @@ alanBtn({
       ,
     onCommand: ({ command, articles, article, number ,color }) => {
         if (command === 'aboutPage') {
-            let page = document.querySelector('.page2')  
+            let page = document.querySelector('.about')  
              window.open(page, '_self') 
          }
         if (command === 'backgroundColor'){
