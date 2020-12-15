@@ -69,6 +69,13 @@ h2 {
   margin-left: 20px;
   color: whitesmoke;
 }
+.name {
+  color: black;
+  text-align: center;
+}
+.title {
+  color: black;
+}
 .lates {
   margin-top: 155px;
   margin-right: 140px;
@@ -159,24 +166,20 @@ h2 {
     width: 100%;
   }
 }
-
-@media screen and (max-width: 992px) {
-  .box1 {
-    width: 50%;
-  }
+p a {
+  color: #736e87;
 }
-@media screen and (max-width: 600px) {
-  .box1 {
-    width: 100%;
-  }
-}
-
 p {
   font-size: 20px;
   color: whitesmoke;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+p a:hover {
+  background-color: whitesmoke;
+  color: #736e87;
+  border-radius: 20%;
 }
 #lates {
   margin: 0;
@@ -203,6 +206,7 @@ p {
   border-radius: 40px;
   background-color: #a6808c;
   box-shadow: 2px 3px 4px grey;
+  perspective: 1000px;
 }
 #source1 {
   height: 390px;
@@ -213,6 +217,7 @@ p {
   border-radius: 40px;
   background-color: #867b8e;
   box-shadow: 2px 2px 4px grey;
+  perspective: 1000px;
 }
 #cata1 {
   height: 390px;
@@ -223,6 +228,7 @@ p {
   border-radius: 40px;
   background-color: rgb(204, 183, 174);
   box-shadow: 2px 3px 4px grey;
+  perspective: 1000px;
 }
 div .box {
   display: flex;
@@ -414,33 +420,54 @@ div .box {
 .words3 span:nth-child(5) {
   animation-delay: 8s;
 }
-main .main2 {
-  overflow: hidden;
-}
-.whatis {
-  color: #736e87;
-}
-.what2 {
-  color: #736e87;
-}
-.creators {
-  color: #736e87;
-}
-.ayman1 {
-  margin-top: 90px;
-  margin-left: -450px;
-}
-.jenn1 {
-  margin-top: 290px;
-  margin-left: -106px;
-}
-#creators3 {
-  display: flex;
-}
+
 #fox {
   max-width: 0;
   margin-top: 90px;
 }
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.about1 {
+  color: #736e87;
+  margin-left: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  color: #736e87;
+}
+.container {
+  padding: 0 16px;
+}
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.creatorpic {
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 9px;
+  box-shadow: 2px 2px 7px;
+}
+.title {
+  color: grey;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -488,4 +515,8 @@ html {
 .numOfArticle {
   color: #007bff;
   margin: 0;
+}
+.card-text {
+  color: black;
+  font-size: 15px;
 }
