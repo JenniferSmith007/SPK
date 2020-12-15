@@ -4,108 +4,105 @@ const ALAN_API_KEY = process.env.ALAN_API_KEY
 let news = document.querySelector('.news')
    let main = document.querySelector('.main1')
    // First div
-  //  let latest = document.createElement('div')
-  //      latest.classList.add('box');
-  //      latest.setAttribute('id','latest')
-  //   let h1Latest= document.createElement('h1')
-  //       h1Latest.classList.add('latest');
-  //       h1Latest.textContent = 'Latest News'
-  //   let latestH2 = document.createElement('h2') 
-  //       latestH2.classList.add('lates')
-  //       latestH2.textContent = 'Show Me The Latest News'
-  //       latest.appendChild(h1Latest)
-  //       latest.appendChild(latestH2)
-  //        main.appendChild(latest)
-  //   // 2d div 
-  //   let termsDiv =document.createElement('div')
-  //       termsDiv.classList.add('box')
-  //       termsDiv.setAttribute('id','terms1')
-  //   let terms = document.createElement('h1')
-  //       terms.classList.add('terms')
-  //       terms.textContent= 'Terms'
-  //   let wordBoxTwo = document.createElement('div')
-  //        wordBoxTwo.classList.add('wordboxtwo')
-  //   let wordBoxTwoH2 = document.createElement('h2')
-  //       wordBoxTwoH2.textContent =`What's Up With.. `
-  //       wordBoxTwo.appendChild(wordBoxTwoH2)
-  //   let insideWTB = document.createElement('div')
-  //       insideWTB.classList.add('wordstwo')
-  //   let apple = document.createElement('span');
-  //       apple.textContent= 'Apple'
-  //       let tesla = document.createElement('span');
-  //       tesla.textContent= 'Tesla'
-  //       let covid = document.createElement('span');
-  //       covid.textContent= 'Covid'
-  //       let art = document.createElement('span');
-  //       art.textContent= 'Art'
-  //       insideWTB.appendChild(apple)
-  //       insideWTB.appendChild(tesla)
-  //       insideWTB.appendChild(covid)
-  //       insideWTB.appendChild(art)
-  //       wordBoxTwo.appendChild(insideWTB);
-  //       termsDiv.appendChild(terms)
-  //       termsDiv.appendChild(wordBoxTwo);
-  //        main.appendChild(termsDiv)
-  //            //3D Div 
-  //   let sourceDiv = document.createElement('div')
-  //        sourceDiv.classList.add('box')
-  //       sourceDiv.setAttribute('id','source1')
-  //   let sourceH1 = document.createElement('h1')
-  //       sourceH1.classList.add('source')
-  //       sourceH1.textContent ='Source'
-  //       sourceDiv.appendChild(sourceH1)
-  //   let wordBox = document.createElement('div');
-  //       wordBox.classList.add('wordbox')
-  //   let wordBoxH2 = document.createElement('h2')
-  //       wordBoxH2.textContent ='Show Me The News From..'
-  //       wordBox.appendChild(wordBoxH2)  
-  //   let wordsDiv = document.createElement('div')
-  //       wordsDiv.classList.add('words')
-  //   let cnn = document.createElement('span');
-  //       cnn.textContent ='CNN'
-  //   let msnbc = document.createElement('span');
-  //       msnbc.textContent ='MSNBC'
-  //   let fox = document.createElement('span');
-  //       fox.textContent ='FOX'
-  //       wordsDiv.appendChild(cnn)
-  //       wordsDiv.appendChild(msnbc)
-  //       wordsDiv.appendChild(fox)
-  //       wordBox.appendChild(wordsDiv)
-  //       sourceDiv.appendChild(wordBox)
-  //       main.appendChild(sourceDiv)
-  //          //  4th div ///
-  //   let catagoriesDiv = document.createElement('div')
-  //       catagoriesDiv.classList.add('box')
-  //       catagoriesDiv.setAttribute('id','cata1')
-  //   let catagoriesH1 = document.createElement('h1');
-  //       catagoriesH1.classList.add('catagories')
-  //       catagoriesH1.textContent ='Categories'
-  //       catagoriesDiv.appendChild(catagoriesH1)
-  //   let divWordBoxThree = document.createElement('div')
-  //      divWordBoxThree.classList.add('wordboxThree');
-  //  let divWordBoxThreeH2 = document.createElement('h2')
-  //      divWordBoxThreeH2.textContent = 'Show Me The News In..'
-  //      divWordBoxThree.appendChild(divWordBoxThreeH2)
-  //   let div3 = document.createElement('div')
-  //       div3.classList.add('words3')
-  //   let businesses =document.createElement('span')
-  //       businesses.textContent ='Business'
-  //   let sport =document.createElement('span')
-  //       sport.textContent ='Sports'
-  //   let science =document.createElement('span')
-  //       science.textContent ='Science'
-  //       div3.appendChild(businesses)
-  //       div3.appendChild(sport)
-  //       div3.appendChild(science)
-  //       divWordBoxThree.appendChild(div3)
-  //       catagoriesDiv.appendChild(divWordBoxThree)
-  //       main.appendChild(catagoriesDiv)
+//    let latest = document.createElement('div')
+//        latest.classList.add('box');
+//        latest.setAttribute('id','latest')
+//     let h1Latest= document.createElement('h1')
+//         h1Latest.classList.add('latest');
+//         h1Latest.textContent = 'Latest News'
+//     let latestH2 = document.createElement('h2') 
+//         latestH2.classList.add('lates')
+//         latestH2.textContent = 'Show Me The Latest News'
+//         latest.appendChild(h1Latest)
+//         latest.appendChild(latestH2)
+//          main.appendChild(latest)
+//     // 2d div 
+//     let termsDiv =document.createElement('div')
+//         termsDiv.classList.add('box')
+//         termsDiv.setAttribute('id','terms1')
+//     let terms = document.createElement('h1')
+//         terms.classList.add('terms')
+//         terms.textContent= 'Terms'
+//     let wordBoxTwo = document.createElement('div')
+//          wordBoxTwo.classList.add('wordboxtwo')
+//     let wordBoxTwoH2 = document.createElement('h2')
+//         wordBoxTwoH2.textContent =`What's Up With.. `
+//         wordBoxTwo.appendChild(wordBoxTwoH2)
+//     let insideWTB = document.createElement('div')
+//         insideWTB.classList.add('wordstwo')
+//     let apple = document.createElement('span');
+//         apple.textContent= 'Apple'
+//         let tesla = document.createElement('span');
+//         tesla.textContent= 'Tesla'
+//         insideWTB.appendChild(apple)
+//         insideWTB.appendChild(tesla)
+//         wordBoxTwo.appendChild(insideWTB);
+//         termsDiv.appendChild(terms)
+//         termsDiv.appendChild(wordBoxTwo);
+//          main.appendChild(termsDiv)
+//              //3D Div 
+//     let sourceDiv = document.createElement('div')
+//          sourceDiv.classList.add('box')
+//         sourceDiv.setAttribute('id','source1')
+//     let sourceH1 = document.createElement('h1')
+//         sourceH1.classList.add('source')
+//         sourceH1.textContent ='Source'
+//         sourceDiv.appendChild(sourceH1)
+//     let wordBox = document.createElement('div');
+//         wordBox.classList.add('wordbox')
+//     let wordBoxH2 = document.createElement('h2')
+//         wordBoxH2.textContent ='Show Me The News From..'
+//         wordBox.appendChild(wordBoxH2)  
+//     let wordsDiv = document.createElement('div')
+//         wordsDiv.classList.add('words')
+//     let cnn = document.createElement('span');
+//          cnn.classList.add('cnn')   
+//         cnn.textContent ='CNN'
+//     let msnbc = document.createElement('span');
+//         msnbc.textContent ='MSNBC'
+// let fox = document.createElement('span');
+//     fox.setAttribute('id','fox')
+//         fox.textContent ='FOX'
+//         wordsDiv.appendChild(cnn)
+//         wordsDiv.appendChild(msnbc)
+//         wordsDiv.appendChild(fox)
+//         wordBox.appendChild(wordsDiv)
+//         sourceDiv.appendChild(wordBox)
+//         main.appendChild(sourceDiv)
+//            //  4th div ///
+//     let catagoriesDiv = document.createElement('div')
+//         catagoriesDiv.classList.add('box')
+//         catagoriesDiv.setAttribute('id','cata1')
+//     let catagoriesH1 = document.createElement('h1');
+//         catagoriesH1.classList.add('catagories')
+//         catagoriesH1.textContent ='Categories'
+//         catagoriesDiv.appendChild(catagoriesH1)
+//     let divWordBoxThree = document.createElement('div')
+//        divWordBoxThree.classList.add('wordboxThree');
+//    let divWordBoxThreeH2 = document.createElement('h2')
+//        divWordBoxThreeH2.textContent = 'Show Me The News In..'
+//        divWordBoxThree.appendChild(divWordBoxThreeH2)
+//     let div3 = document.createElement('div')
+//         div3.classList.add('words3')
+//     let businesses =document.createElement('span')
+//         businesses.textContent ='Business'
+//     let sport =document.createElement('span')
+//         sport.textContent ='Sports'
+//     let science =document.createElement('span')
+//         science.textContent ='Science'
+//         div3.appendChild(businesses)
+//         div3.appendChild(sport)
+//         div3.appendChild(science)
+//         divWordBoxThree.appendChild(div3)
+//         catagoriesDiv.appendChild(divWordBoxThree)
+//         main.appendChild(catagoriesDiv)
   //     //?   here Alan command start   
 alanBtn({
-      key: ALAN_API_KEY,
+      key: ALAN_API_KEY
+      ,
     onCommand: ({ command, articles, article, number ,color }) => {
         if (command === 'aboutPage') {
-            let page = document.querySelector('.page2')  
+            let page = document.querySelector('.about')  
              window.open(page, '_self') 
          }
         if (command === 'backgroundColor'){
@@ -128,7 +125,7 @@ alanBtn({
             let sourceDateDiv = document.createElement('div') 
                 sourceDateDiv.classList.add('source-date')
             let source = document.createElement('h6');
-                source.classList.add("source");
+                source.classList.add("source1");
                 source.textContent=`Source :${articleCard.source.name}`
                 sourceDateDiv.appendChild(source)
             let date = document.createElement('h6');
@@ -164,7 +161,7 @@ alanBtn({
         } 
    
 
- let card = document.querySelectorAll('.card-title')
+let card = document.querySelectorAll('.card-title')
      if(command === 'highlight'){
          let activeCard=document.querySelectorAll('.card') 
       // for(let i =0 ; i <activeCard.length;i++){
