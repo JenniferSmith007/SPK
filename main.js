@@ -2,7 +2,7 @@ import alanBtn from '@alan-ai/alan-sdk-web'
 // import wordsToNumbers from 'words-to-numbers';
 const ALAN_API_KEY = process.env.ALAN_API_KEY
 let news = document.querySelector('.news')
-   let main = document.querySelector('.main1')
+let main = document.querySelector('.main1')
    // First div
 //    let latest = document.createElement('div')
 //        latest.classList.add('box');
@@ -106,10 +106,26 @@ alanBtn({
         if (command === 'aboutPage') {
             let page = document.querySelector('.about')  
              window.open(page, '_self') 
-         }
+        }
+       if (command === 'city') {
+          let newyork = document.querySelector('audio ')
+          
+            
+          
+          // console.log(newyork);
+          newyork.play();
+          setTimeout(() => {
+            alanBtn().playText('This is My favorite city ...')  
+             
+         },17000)
+          //
+         
+        
+      }
         if (command === 'backgroundColor'){
-           //console.log(color);
-            let colorChangeing =document.querySelector('main')
+         console.log(color);
+           let colorChangeing = document.querySelector('main')
+           
             colorChangeing.style.background = `${color}`
             }
           if(command === 'newHeadlines'){
